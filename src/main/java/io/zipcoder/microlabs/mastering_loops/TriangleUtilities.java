@@ -7,7 +7,7 @@ public class TriangleUtilities {
 //        I am able to get the logic to work.
 //        If I import this as a new class and run it, it will create a triangle.
         String stars = "";
-        for (int i = 1; i <= numberOfRows; i++) {
+        for (int i = 1; i <= numberOfRows-1; i++) {
             for (int j = 1; j <= i; j++) {
                 stars += "*";
             }
@@ -28,30 +28,10 @@ public class TriangleUtilities {
     }
 
     public static String getSmallTriangle(int numberOfStars) {
-//        I can't figure out how to get this to print.
-//        I am able to get the logic to work.
-//        If I import this as a new class and run it, it will create a triangle.
-        String stars = "";
-        for (int i = 1; i < numberOfStars; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        return stars;
+        return getTriangle(numberOfStars);
     }
 
     public static String getLargeTriangle(int numberOfStars) {
-//        I can't figure out how to get this to print.
-//        I am able to get the logic to work.
-//        If I import this as a new class and run it, it will create a triangle.
-        String stars = "";
-        for (int i = 1; i < numberOfStars; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        return stars;
+    return getTriangle(numberOfStars);
     }
 }
