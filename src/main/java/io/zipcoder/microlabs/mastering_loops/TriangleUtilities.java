@@ -9,9 +9,9 @@ public class TriangleUtilities {
         String stars = "";
         for (int i = 1; i <= numberOfRows; i++) {
             for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+                stars += "*";
             }
-            System.out.println();
+            stars += "\n";
         }
         return stars;
     }
@@ -32,7 +32,7 @@ public class TriangleUtilities {
 //        I am able to get the logic to work.
 //        If I import this as a new class and run it, it will create a triangle.
         String stars = "";
-        for (int i = 1; i <= numberOfStars; i++) {
+        for (int i = 1; i < numberOfStars; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
@@ -46,7 +46,7 @@ public class TriangleUtilities {
 //        I am able to get the logic to work.
 //        If I import this as a new class and run it, it will create a triangle.
         String stars = "";
-        for (int i = 1; i <= numberOfStars; i++) {
+        for (int i = 1; i < numberOfStars; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
